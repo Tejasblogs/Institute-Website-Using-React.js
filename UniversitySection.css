@@ -1,0 +1,26 @@
+.university-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  
+  .university-logo {
+    width: 150px;
+    height: 180px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+  }
+  
+  .university-logo:hover {
+    transform: scale(1.1);
+  }
+  
+  .owl-theme .owl-nav {
+    display: none;
+  }
+  
+  @media (max-width: 600px) {
+    .university-logo {
+      width: 75%;
+    }
+  }
+  

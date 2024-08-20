@@ -1,0 +1,79 @@
+.footer-top-area {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    background-color: #f8f9fa;
+  }
+ 
+  
+  .footer-widget {
+    margin-bottom: 20px;
+  }
+  
+  .footer-widget h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .address,
+  .link,
+  .social-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .address li,
+  .link li,
+  .social-links li {
+    margin-bottom: 10px;
+  }
+  
+  .address li i,
+  .link li i {
+    margin-right: 10px;
+  }
+  
+  .address li a,
+  .link li a,
+  .social-links li a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .address li a:hover,
+  .link li a:hover,
+  .social-links li a:hover {
+    text-decoration: underline;
+  }
+  
+  .currencyList select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 14px;
+  }
+  
+  .footer-bottom-area {
+    background-color: #343a40;
+    padding: 20px 0;
+    color: #fff;
+  }
+  
+  .copyright-wrap {
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .social-links a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-links a img {
+    width: 24px;
+    height: 24px;
+  }
+  

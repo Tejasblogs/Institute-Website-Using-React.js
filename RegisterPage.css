@@ -1,0 +1,34 @@
+.register-page-section {
+    background-color: #f5f6fa;
+}
+
+.job-posting {
+    display: flex;
+    align-items: center;
+}
+
+.job-posting h1 {
+    color: #0c3f5e;
+    font-size: 2.75rem;
+    font-weight: bold;
+}
+
+.job-posting .btn.default-btn {
+    background-color: #0c3f5e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.job-posting .btn.default-btn:hover {
+    background-color: #094056;
+    color: white;
+}
+
+.post-job-img {
+    width: 100%;
+    height: auto;
+}

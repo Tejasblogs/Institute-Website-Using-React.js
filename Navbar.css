@@ -1,0 +1,158 @@
+.navbar-area {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    position: sticky;
+    width: 100%;
+    z-index: 100;
+
+  }
+  
+  .main-nav .container-fluid {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .navbar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .navbar-brand img {
+    height: 40px;
+    margin-left: 30px;
+  }
+  
+  .mean-menu {
+    display: flex;
+    justify-content: flex-center;
+    flex-grow: 1;
+    margin-right: 50px;
+  }
+  
+  .navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+  }
+  
+  .nav-item {
+    margin-left: 20px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .register {
+    display: flex;
+    align-items: center;
+  }
+  
+  .default-btn-login {
+    text-decoration: none;
+    color: #c22c2c;
+    background-color: orange;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+  }
+  
+  .cart-icon {
+    margin-left: 20px;
+    position: relative;
+  }
+  
+  .cart-icon i {
+    font-size: 20px;
+  }
+  
+  .cart-icon span {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: #ff0000;
+    color: #fff;
+    border-radius: 50%;
+    padding: 2px 5px;
+    font-size: 12px;
+  }
+  
+
+
+  .carousel-container {
+    max-width: 800px; /* Adjust as needed */
+    margin: 0 auto;
+  }
+  
+  .carousel {
+    position: relative;
+    width: 100%;
+  }
+
+  
+  
+  .carousel .slide {
+    background-color: #f0f0f0; /* Background color of slides */
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .carousel .slide img {
+    width: 100%; /* Ensure images fill the slide */
+    height: auto;
+    display: block;
+  }
+  
+  .carousel .control-dots {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .carousel .control-dots .dot {
+    background-color: #ccc; /* Color of inactive dot */
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .carousel .control-dots .dot.selected {
+    background-color: #333; /* Color of active dot */
+  }
+  
+  .carousel .thumbs-wrapper {
+    display: none; /* Hide thumbnail navigation if not used */
+  }
+  
+  @media (max-width: 768px) {
+    .carousel-container {
+      max-width: 100%;
+      padding: 0 15px;
+    }
+  }
+
+  .carousel .slide img {
+    max-width: 500px; /* Ensures images are responsive */
+    height: auto; /* Maintains aspect ratio */
+    display: block;
+    margin: 0 auto; /* Centers images horizontally */
+    max-height: 300px; /* Adjust maximum height as needed */
+  }
+  

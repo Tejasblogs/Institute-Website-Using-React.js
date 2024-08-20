@@ -1,0 +1,39 @@
+.certificate-section {
+    background: #f4f9fd;
+    padding: 40px 0;
+}
+
+.certificate-section .text-center {
+    padding-top: 0;
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+.certificate-section .certificate-img {
+    box-shadow: 1px 3px 10px #ccc;
+    border-radius: 0.8rem;
+    width: 100%;
+    height: auto;
+}
+
+.certificate-section .description {
+    font-weight: 300;
+    padding: 40px 0;
+    font-size: 1.25rem;
+}
+
+.single-feature {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.single-feature h4 {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.single-feature i {
+    color: #00aaff;
+    margin-right: 10px;
+}

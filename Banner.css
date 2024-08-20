@@ -1,0 +1,139 @@
+.learning-banner {
+  background-color: #4b5763;
+  padding: 60px 0;
+  background-image: url("blueback.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-content {
+  margin-bottom: 40px;
+}
+
+.banner-content h1 {
+  font-size: 48px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.primary-color {
+  color: #007bff;
+}
+
+.search-container {
+  margin-top: 20px;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  flex: 1;
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px 0 0 5px;
+  border-right: none;
+}
+
+.search-button {
+  padding: 10px 20px;
+  background-color: orange;
+  color: #fff;
+  border: 1px solid orange;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.counter-holder {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.counter-item {
+  text-align: center;
+}
+
+.counter-text {
+  margin: 0;
+  color: #fff;
+}
+
+.counter-label {
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+.divider {
+  background: #f5ab27;
+  width: 1px;
+  height: 50px;
+  margin: 0 20px;
+}
+.counter-label{
+  font-size: large;
+}
+
+.live-classes-number {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.counter-bg {
+  background-color: #007bff;
+  padding: 20px 0;
+}
+
+.single-counter {
+  text-align: center;
+}
+
+.counter-shape {
+  background-color: #4b5763;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.odometer {
+  display: block;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.hide-in-mobile {
+  display: block;
+}
+
+.hide-in-desktop {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .hide-in-mobile {
+    display: none;
+  }
+
+  .hide-in-desktop {
+    display: block;
+  }
+
+  .banner-content h1 {
+    font-size: 32px;
+  }
+
+  .counter-holder {
+    flex-direction: column;
+  }
+
+  .divider {
+    display: none;
+  }
+
+  .live-classes-number {
+    margin: 0 0 10px 0;
+  }
+}
